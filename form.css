@@ -1,0 +1,13 @@
+body {
+	background:url(https://vignette.wikia.nocookie.net/lovecraft/images/5/50/Wiki-background/revision/latest?cb=20150621234737);
+}
+main {
+	position: relative;
+	margin-top: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+	color:  #99b875;
+	background-color: #001f00;
+	border: 1px solid #2e441f;
+	border-collapse: collapse;
+}
