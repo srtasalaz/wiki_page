@@ -1,65 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="&quot;The Call of Cthulhu&quot; is a short story by American writer H. P. Lovecraft. Written in the summer of 1926, it was first published in the pulp magazine Weird Tales.">
+    <title> Cthulhu | Join our church</title>
     <link rel="stylesheet" href="form.css">
-         <title>Church of Cthulhu</title>
-            <link rel="icon" type="image/ico" href="img/logo.png" />
+    <link rel="icon" type="image/ico" href="media/necronomicon_icon.jpg" />
 </head>
+</head>
+
 <body>
 
+    <h1 class="p-3"> Get your Certificate of Ordination</h1>
 
-        <h1>Get your Ceritificate of Ordination</h1>
+    <div class="required-info p-3 m-main">
 
-
-    <form method="post" action="https://formspree.io/oksanahb@hotmail.es">
-        <fieldset>
-
-        <label for="first-name">First name:</label>
-                <br>
-            <input type="text" name="first-name" id="first-name" required>
-                <br>
-                <br>
-        <label for="last-name">Last name:</label>
-                <br>
-            <input type="text" name="last-name" id="last-name" required>
-                <br>
-                <br>
-        <label for="email">Email:</label>
-                <br>
-            <input type="text" name="email" id="email" required >
-                <br>
-                <br>
-        <label for="phone">Phone number:</label>
-                <br>
-            <input type="text" name="phone" id="phone" min="0" step="1" required >
-                <br>
-                <br>
-        <label for="gender">Gender:</label>
-            <input type="checkbox" name="gender" id="male-gender" value="male"> Male
-                        <input type="checkbox" name="gender" id="female-gender" value="female"> Female
-                                    <input type="checkbox" name="gender" id="gender" value="others"> Others
-                <br>
-                <br>
+      <form method="post" action="https://formspree.io/oksanahb@hotmail.es">
 
 
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-        </form>
-            <form method="get" action="img/priest.jpeg">
-                <br>
-                <br>
-                <h3> Now you're good to go:</h3>
-           <button type="submit">Download your certificate</button>
-    </form>
+              <label for="first-name">First name:</label>
+              <br>
+              <input class="text-input mx-3" type="text" name="first-name" id="first-name" required>
+              <br>
+              <label for="last-name">Last name:</label>
+              <br>
+              <input class="text-input mx-3" type="text" name="last-name" id="last-name" required>
+              <br>
+              <label for="email">Email:</label>
+              <br>
+              <input class="text-input mx-3" type="text" name="email" id="email" required>
+              <br>
+              <label for="phone">Phone number:</label>
+              <br>
+              <input class="text-input mx-3" type="text" name="phone" id="phone" min="0" step="1" required>
+              <br>
+              <label for="gender">Gender:</label>
+              <input type="radio" name="gender" value="male"> Male
+              <input type="radio" name="gender" value="female"> Female
+              <input type="radio" name="gender" value="others"> Extraterrestrial
+              <input type="radio" name="gender" value="others"> Others
+              <br>
+              <br>
 
-        </fieldset>
+              <input class="values mx-3" type="submit" value="Send">
+              <input class="values mx-3" type="reset" value="Reset">
+      </form>
+      <form method="get" action="media/priest.jpeg">
+          <br>
+          <br>
+          <h3 class="px-3"> Now you're good to go:</h3>
+          <button class="download my-3" type="submit">Download your certificate</button>
+      </form>
 
-
-
-
+    </div>
 
 </body>
+
 </html>
